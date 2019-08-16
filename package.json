@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/qasims-dev/node-session-auth/issues"
   },
-  "homepage": "https://github.com/qasims-dev/node-session-auth#readme"
+  "homepage": "https://github.com/qasims-dev/node-session-auth#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
