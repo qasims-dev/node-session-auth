@@ -2,9 +2,10 @@
   "name": "node-session-auth",
   "version": "1.0.0",
   "description": "A project to learn node auth with sessions",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/qasims-dev/node-session-auth#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "req-flash": "0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
