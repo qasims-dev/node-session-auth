@@ -1,0 +1,4 @@
+host: "localhost",
+user: "root",
+password: "meriYAAD1",
+database: "ejssessionauth"
