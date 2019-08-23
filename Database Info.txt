@@ -1,4 +1,4 @@
 host: "localhost",
 user: "root",
-password: "meriYAAD1",
+password: "PLEASE ADD YOUR OWN PASSWORD",
 database: "ejssessionauth"
